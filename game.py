@@ -3,7 +3,7 @@ from src.drawable import Drawable
 from src.renderer import Renderer
 
 
-class EnemyBatallion:
+class EnemyBattalion:
     REPRESENTATION = "X"
     BASE_SPEED = 0.3
 
@@ -80,7 +80,7 @@ class GameManager:
             max_width, max_width // 2, 4 * max_height // 5, self.renderer._term.inkey
         )
         self.enemies = [
-            EnemyBatallion(
+            EnemyBattalion(
                 max_width,
                 [
                     max_width // 2,
